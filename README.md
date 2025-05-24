@@ -7,11 +7,12 @@ Official repository for [DERD-Net: Learning Depth from Event-based Ray Densities
 If you use this work in your research, please cite it as follows:
 
 <pre>
+```bibtex
 @article{hitzges2025derd,
-title={DERD-Net: Learning Depth from Event-based Ray Densities},
-author={Hitzges, Diego de Oliveira and Ghosh, Suman and Gallego, Guillermo},
-journal={arXiv preprint arXiv:2504.15863},
-year={2025}
+  title={DERD-Net: Learning Depth from Event-based Ray Densities},
+  author={Hitzges, Diego de Oliveira and Ghosh, Suman and Gallego, Guillermo},
+  journal={arXiv preprint arXiv:2504.15863},
+  year={2025}
 }
 </pre>
 
