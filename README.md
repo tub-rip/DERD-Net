@@ -46,3 +46,16 @@ The approach of usind DSI was originally proposed in the [MC-EMVS](https://onlin
   - Single value at selected pixel for single-pixel network version
   - 3x3 grid at selected and neighboring pixels for multi-pixel network version
 
+### Results
+
+<div align="center">
+  <img src="assets/grid.png" alt="Alt Text">
+</div>
+
+Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our approach drastically outperforms all benchmark methods, including those operating on DSIs, and achieves unprecedented effectiveness:
+
+- Using purely monocular data, our method achieves comparable results to existing _stereo_ methods.
+- When applied to stereo data, it strongly outperforms all state-of-the-art (SOTA) approaches, reducing the mean absolute error by at least 42%.
+- Our method also allows for increases in depth completion by more than 3-fold while still yielding a reduction in median absolute error of at least 30%.
+
+The superiority of our method was further confirmed by retraining and testing on the DSEC sequence <em>zurich_city_04a</em>.
