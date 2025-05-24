@@ -60,13 +60,14 @@ Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our 
 
 Superiority in performance of our method was further confirmed by retraining and testing on the DSEC sequence <em>zurich_city_04a</em>.
 
-### Usage Instructions
+## Code
 
-The code for our approach is provided in Jupyter Notebooks within the [notebooks](https://github.com/tub-rip/DERD-Net_dev/tree/main/notebooks) folder. Below are instructions for each key notebook:
+The code for our approach is provided in Jupyter Notebooks, each of which contain a detailed usage instruction. They are contained within [notebooks](https://github.com/tub-rip/DERD-Net_dev/tree/main/notebooks) folder, providing the following functionalities:
 
-- **Training and Testing**: Use the [training_and_testing](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Training_and_Testing.ipynb) notebook to train models on DSIs created from event-camera data and evaluate the model performance. Each step in this notebook guides you through the entire training and testing process.
-- **Inference**: To generate depth estimates for new data, use the `inference` notebook, which provides step-by-step guidance on performing inference with trained models.
-- **Visualization**: The `visualization` notebook enables you to visualize results, making it easy to compare predictions with ground truth data and analyze model performance.
+- [Training and testing](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Training_and_Testing.ipynb)
+- [Inference and runtime analysis](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Inference.ipynb)
+- [Visualization of depth maps](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Visualization.ipynb)
 
-Additionally, the code is available as Python files. After adjusting file paths to match your directories, these can be executed directly for training, inference, or visualization without the need for Jupyter.
+## Models
 
+The trained models are provided in the folder [models](https://github.com/tub-rip/DERD-Net_dev/tree/main/models)
