@@ -36,10 +36,6 @@ The approach of usind DSI was originally proposed in the [MC-EMVS](https://onlin
 
 ### Neural Network
 
-- 3D-Convolutions
-- GRU
-- Fully connected output layers
-
 <div align="center">
   <img src="assets/neural_net.png" alt="Alt Text">
 </div>
