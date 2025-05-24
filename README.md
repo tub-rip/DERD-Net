@@ -42,7 +42,7 @@ The approach of usind DSI was originally proposed in the [MC-EMVS](https://onlin
 
 #### Output
 
-- Pixel-wise depth estimation for each Sub-DSI
-- Single value at selected pixel for single-pixel network version
-- 3x3 grid at selected and neighboring pixels for multi-pixel network version
+- Pixel-wise depth estimation for each Sub-DSI:
+  - Single value at selected pixel for single-pixel network version
+  - 3x3 grid at selected and neighboring pixels for multi-pixel network version
 
