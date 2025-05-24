@@ -62,9 +62,9 @@ Superiority in performance of our method was further confirmed by retraining and
 
 ### Usage Instructions
 
-The code for our approach is provided in Jupyter Notebooks within the `notebooks` folder. Below are instructions for each key notebook:
+The code for our approach is provided in Jupyter Notebooks within the [notebooks](https://github.com/tub-rip/DERD-Net_dev/tree/main/notebooks) folder. Below are instructions for each key notebook:
 
-- **Training and Testing**: Use the `training_and_testing` notebook to train models on DSIs created from event-camera data and evaluate the model performance. Each step in this notebook guides you through the entire training and testing process.
+- **Training and Testing**: Use the [training_and_testing](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Training_and_Testing.ipynb) notebook to train models on DSIs created from event-camera data and evaluate the model performance. Each step in this notebook guides you through the entire training and testing process.
 - **Inference**: To generate depth estimates for new data, use the `inference` notebook, which provides step-by-step guidance on performing inference with trained models.
 - **Visualization**: The `visualization` notebook enables you to visualize results, making it easy to compare predictions with ground truth data and analyze model performance.
 
