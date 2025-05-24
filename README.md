@@ -64,7 +64,7 @@ The approach of usind DSI was originally proposed in the [MC-EMVS](https://onlin
 
 ## Code
 
-The code for our approach is provided in Jupyter Notebooks, each of which contain a detailed usage instruction. They are contained within [notebooks](https://github.com/tub-rip/DERD-Net_dev/tree/main/notebooks) folder, providing the following functionalities:
+The code for our approach is provided in Jupyter Notebooks, each of which contain a detailed usage instruction. They are contained within the [notebooks](https://github.com/tub-rip/DERD-Net_dev/tree/main/notebooks) folder, providing the following functionalities:
 
 - [Training and testing](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Training_and_Testing.ipynb)
 - [Inference and runtime analysis](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Inference.ipynb)
