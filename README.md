@@ -74,4 +74,4 @@ See our [environment.yml](https://github.com/tub-rip/DERD-Net_dev/blob/main/envi
 
 ## Models
 
-The trained models are provided in the folder [models](https://github.com/tub-rip/DERD-Net_dev/tree/main/models)
+Our trained models are provided in the folder [models](https://github.com/tub-rip/DERD-Net_dev/tree/main/models).
