@@ -46,7 +46,7 @@ The approach of usind DSI was originally proposed in the [MC-EMVS](https://onlin
   - Single value at selected pixel for single-pixel network version
   - 3x3 grid at selected and neighboring pixels for multi-pixel network version
 
-### Results
+## Results
 
 <div align="center">
   <img src="assets/grid.png" alt="Alt Text">
@@ -59,3 +59,14 @@ Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our 
 - Our method also allows for increases in depth completion by more than 3-fold while still yielding a reduction in median absolute error of at least 30%.
 
 The superiority of our method was further confirmed by retraining and testing on the DSEC sequence <em>zurich_city_04a</em>.
+
+### Usage Instructions
+
+The code for our approach is provided in Jupyter Notebooks within the `notebooks` folder. Below are instructions for each key notebook:
+
+- **Training and Testing**: Use the `training_and_testing` notebook to train models on DSIs created from event-camera data and evaluate the model performance. Each step in this notebook guides you through the entire training and testing process.
+- **Inference**: To generate depth estimates for new data, use the `inference` notebook, which provides step-by-step guidance on performing inference with trained models.
+- **Visualization**: The `visualization` notebook enables you to visualize results, making it easy to compare predictions with ground truth data and analyze model performance.
+
+Additionally, the code is available as Python files. After adjusting file paths to match your directories, these can be executed directly for training, inference, or visualization without the need for Jupyter.
+
