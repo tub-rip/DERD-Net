@@ -15,5 +15,8 @@ If you use this work in your research, please cite it as follows:
 }
 ```
 
+## Data Processing Framework
 
-blabla
+<div align="center">
+  <img src="assets/system_pipeline_thicker_arrows.png" alt="Alt Text">
+</div>
