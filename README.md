@@ -21,7 +21,7 @@ If you use this work in your research, please cite it as follows:
   <img src="assets/system_pipeline_thicker_arrows.png" alt="Alt Text">
 </div>
 
-### Data-Preprocessing
+#### Data-Preprocessing
 
 - Create disparity space images (DSIs) from events and camera pose
 - In case of stereo event vision, fuse DSIs from two or more cameras
@@ -29,18 +29,18 @@ If you use this work in your research, please cite it as follows:
 
 The approach of usind DSI was originally proposed in the [MC-EMVS](https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200221) paper. To construct DSIs, refer to the associated repository, [dvs_mcemvs](https://github.com/tub-rip/dvs_mcemvs).
 
-### Input
+#### Input
 
 - Local subregion of the DSI around each pixel (Sub-DSI)
 - Each Sub-DSI is one data point and processed independently and parallely by the network
 
-### Neural Network
+#### Neural Network
 
 <div align="center">
   <img src="assets/neural_net.png" alt="Alt Text">
 </div>
 
-### Output
+#### Output
 
 - Pixel-wise depth estimation for each Sub-DSI
 - Single value at selected pixel for single-pixel network version
