@@ -32,7 +32,7 @@ The approach of usind DSI was originally proposed in the [MC-EMVS](https://onlin
 ### Input
 
 - Local subregion of the DSI around each pixel (Sub-DSI)
-- Each Sub-DSI is one data point and processed independently and parallely
+- Each Sub-DSI is one data point and processed independently and parallely by the network
 
 ### Neural Network
 
