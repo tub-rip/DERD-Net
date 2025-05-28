@@ -83,7 +83,7 @@ The code for our approach is provided in Jupyter Notebooks, each of which contai
 - [Inference and runtime analysis](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Inference.ipynb)
 - [Visualization of depth maps](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Visualization.ipynb)
 
-See our [environment.yml](https://github.com/tub-rip/DERD-Net_dev/blob/main/environment.yml) for all necessary packages.
+Our [environment.yml](https://github.com/tub-rip/DERD-Net_dev/blob/main/environment.yml) can be used for installing necessary dependencies using [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html).
 
 ## Models
 
