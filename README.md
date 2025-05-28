@@ -91,6 +91,6 @@ Our trained models are provided in the folder [models](https://github.com/tub-ri
 
 ## Related Works
 
-[MC-EMVS: Multi-Event-Camera Depth Estimation and Outlier Rejection by Refocused Events Fusion](https://github.com/tub-rip/dvs_mcemvs)
-[Event-based Stereo Depth Estimation: A Survey](https://arxiv.org/pdf/2409.17680)
-[ES-PTAM: Event-based Stereo Parallel Tracking and Mapping](https://github.com/tub-rip/ES-PTAM)
+- [MC-EMVS: Multi-Event-Camera Depth Estimation and Outlier Rejection by Refocused Events Fusion](https://github.com/tub-rip/dvs_mcemvs)
+- [Event-based Stereo Depth Estimation: A Survey](https://arxiv.org/pdf/2409.17680)
+- [ES-PTAM: Event-based Stereo Parallel Tracking and Mapping](https://github.com/tub-rip/ES-PTAM)
