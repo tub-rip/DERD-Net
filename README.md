@@ -4,7 +4,7 @@ Official repository for [DERD-Net: Learning Depth from Event-based Ray Densities
 
 \*Equal contribution.
 
-## [Paper](https://arxiv.org/pdf/2504.15863) | [Video]()
+<!--## [Paper](https://arxiv.org/pdf/2504.15863) | [Video]() --->
 
 If you use this work in your research, please cite it as follows:
 
@@ -25,9 +25,9 @@ If you use this work in your research, please cite it as follows:
 
 #### Data-Preprocessing
 
-- Create disparity space images (DSIs) from events and camera pose
+- Create Disparity Space Images (DSIs) from events and camera pose
 - In case of stereo event vision, fuse DSIs from two or more cameras
-- Select pixels with sufficient ray counts by applaying a threshold filter to each DSI
+- Select pixels with sufficient ray counts in the DSI
 
 #### Input
 
@@ -52,17 +52,13 @@ If you use this work in your research, please cite it as follows:
   <img src="assets/grid.png" alt="Alt Text">
 </div>
 
-Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our approach drastically outperforms all benchmark methods, including those operating on DSIs, and achieves unprecedented effectiveness:
+Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our approach drastically outperforms comparable methods:
 
 - Using purely monocular data, our method achieves comparable results to existing _stereo_ methods.
 - When applied to stereo data, it strongly outperforms all state-of-the-art (SOTA) approaches, reducing the mean absolute error by at least 42%.
 - Our method also allows for increases in depth completion by more than 3-fold while still yielding a reduction in median absolute error of at least 30%.
 
-Superiority in performance of our method was further confirmed by retraining and testing on the DSEC sequence <em>zurich_city_04a</em>.
-
-## Related Work
-
-The approach of usind DSI was originally proposed in the [MC-EMVS](https://onlinelibrary.wiley.com/doi/10.1002/aisy.202200221) paper. To construct DSIs, refer to the associated repository, [dvs_mcemvs](https://github.com/tub-rip/dvs_mcemvs).
+<!--Superiority in performance of our method was further confirmed by retraining and testing on the DSEC sequence <em>zurich_city_04a</em>.--->
 
 ## Code
 
@@ -77,3 +73,9 @@ See our [environment.yml](https://github.com/tub-rip/DERD-Net_dev/blob/main/envi
 ## Models
 
 Our trained models are provided in the folder [models](https://github.com/tub-rip/DERD-Net_dev/tree/main/models).
+
+## Related Works
+
+[MC-EMVS: Multi-Event-Camera Depth Estimation and Outlier Rejection by Refocused Events Fusion](https://github.com/tub-rip/dvs_mcemvs)
+[Event-based Stereo Depth Estimation: A Survey](https://arxiv.org/pdf/2409.17680)
+[ES-PTAM: Event-based Stereo Parallel Tracking and Mapping](https://github.com/tub-rip/ES-PTAM)
