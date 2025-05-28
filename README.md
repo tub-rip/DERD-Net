@@ -47,9 +47,12 @@ If you use this work in your research, please cite it as follows:
   - 3x3 grid at selected and neighboring pixels for multi-pixel network version
 
 ## Results
+<p align="center">
+  <strong>Drones (MVSEC)</strong>
+</p>
 
 <div align="center">
-  <img src="assets/grid.png" alt="Alt Text">
+  <img src="assets/derdnet_mvsec_results.gif" alt="Alt Text">
 </div>
 
 Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our approach drastically outperforms comparable methods:
@@ -57,6 +60,18 @@ Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our 
 - Using purely monocular data, our method achieves comparable results to existing _stereo_ methods.
 - When applied to stereo data, it strongly outperforms all state-of-the-art (SOTA) approaches, reducing the mean absolute error by at least 42%.
 - Our method also allows for increases in depth completion by more than 3-fold while still yielding a reduction in median absolute error of at least 30%.
+
+<p align="center">
+  <strong>Driving (DSEC)</strong>
+</p>
+<div align="center">
+  <img src="assets/derdnet_dsec_results.gif" alt="Alt Text">
+</div>
+<!--
+<div align="center">
+  <img src="assets/grid.png" alt="Alt Text">
+</div>
+-->
 
 <!--Superiority in performance of our method was further confirmed by retraining and testing on the DSEC sequence <em>zurich_city_04a</em>.--->
 
