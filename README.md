@@ -75,11 +75,21 @@ Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our 
 
 <!--Superiority in performance of our method was further confirmed by retraining and testing on the DSEC sequence <em>zurich_city_04a</em>.--->
 
-## Installation
+## Installation & Usage
+
+#### 1. Clone the Repository
+```
+git clone https://github.com/tub-rip/DERD-Net.git
+cd DERD-Net
+```
+
+#### 2. Set Up the Environemnt
+
+We provide an [environment.yml](https://github.com/tub-rip/DERD-Net_dev/blob/main/environment.yml) file to ensure compatibility with all dependencies. It can be installed using [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html).
 
 ```
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+conda env create -f environment.yml
+conda activate your-env-name
 ```
 
 ## Code
