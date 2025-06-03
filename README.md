@@ -104,12 +104,10 @@ If you do not have conda installed, follow the official [miniconda installation 
 
 ### 3. Launch Jupyter Notebook
 
-After activating the environment:
+The following command opens the Jupyter interface in your browser. You can then open and run the notebooks listed above.
 ```
 jupyter notebook
 ```
-
-This will open the Jupyter interface in your browser. You can then open and run the notebooks listed above.
 
 If you are new ew to Jupyter, see this quick [beginner’s guide](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) to help you get started.
 
