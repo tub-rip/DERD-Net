@@ -75,6 +75,13 @@ Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our 
 
 <!--Superiority in performance of our method was further confirmed by retraining and testing on the DSEC sequence <em>zurich_city_04a</em>.--->
 
+## Installation
+
+'''
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+'''
+
 ## Code
 
 The code for our approach is provided in Jupyter Notebooks, each of which contain a detailed usage instruction. They are contained within the [notebooks](https://github.com/tub-rip/DERD-Net_dev/tree/main/notebooks) folder, providing the following functionalities:
