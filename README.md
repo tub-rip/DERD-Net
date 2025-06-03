@@ -54,6 +54,7 @@ If you use this work in your research, please cite it as follows:
 <div align="center">
   <img src="assets/derdnet_mvsec_results.gif" alt="Alt Text">
 </div>
+<br>
 
 Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our approach drastically outperforms comparable methods:
 
@@ -85,13 +86,13 @@ The code for our approach is provided in Jupyter Notebooks, each of which contai
 
 To use these notebooks, follow the installation guide below:
 
-### 1. Clone the Repository
+#### 1. Clone the Repository
 ```
 git clone https://github.com/tub-rip/DERD-Net.git
 cd DERD-Net
 ```
 
-### 2. Set Up the Environemnt
+#### 2. Set Up the Environemnt
 
 We provide an [`environment.yml`](https://github.com/tub-rip/DERD-Net_dev/blob/main/environment.yml) file to ensure compatibility with all dependencies. It can be installed using [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html).
 
@@ -100,7 +101,7 @@ conda env create -f environment.yml
 conda activate derdnet_env
 ```
 
-### 3. Launch Jupyter Notebook
+#### 3. Launch Jupyter Notebook
 
 The following command opens the Jupyter interface in your browser. You can then open and run the notebooks listed above.
 ```
