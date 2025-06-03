@@ -77,10 +77,10 @@ Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our 
 
 ## Installation
 
-'''
+```
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-'''
+```
 
 ## Code
 
