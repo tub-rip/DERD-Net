@@ -115,7 +115,7 @@ If you are new ew to Jupyter, see this quick [beginner’s guide](https://jupyte
 
 Pretrained models are available in the [`models`](https://github.com/tub-rip/DERD-Net_dev/tree/main/models) folder. These include weights for both the single-pixel and multi-pixel versions of DERD-Net. They can can be used directly within the provided Jupyter notebooks:
 
-- Simply place the desired .pth file from the [`models`](https://github.com/tub-rip/DERD-Net_dev/tree/main/models) directory.
+- Simply place the desired `.pth` file from the [`models`](https://github.com/tub-rip/DERD-Net_dev/tree/main/models) directory.
 - The model will be automatically loaded as specified in the corresponding notebook.
 
 ## Related Works
