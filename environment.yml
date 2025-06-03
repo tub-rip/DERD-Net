@@ -1,4 +1,4 @@
-name: stereo_depth_estimation
+name: derdnet_env
 channels:
   - pytorch
   - nvidia
@@ -428,4 +428,4 @@ dependencies:
       - scipy==1.14.1
       - tqdm==4.66.4
       - uritemplate==4.1.1
-prefix: /home/user/anaconda3/envs/stereo_depth_estimation
+prefix: /home/user/anaconda3/envs/derdnet_env
