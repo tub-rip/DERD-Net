@@ -77,20 +77,40 @@ Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our 
 
 ## Installation & Usage
 
-#### 1. Clone the Repository
+The code for our approach is provided in Jupyter Notebooks, each of which contains detailed usage instructions. They are located in the [notebooks](https://github.com/tub-rip/DERD-Net_dev/tree/main/notebooks) folder and cover the following functionalities:
+
+- [Training and testing](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Training_and_Testing.ipynb)
+- [Inference and runtime analysis](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Inference.ipynb)
+- [Visualization of depth maps](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Visualization.ipynb)
+
+To use these notebooks, follow the installation guide below:
+
+### 1. Clone the Repository
 ```
 git clone https://github.com/tub-rip/DERD-Net.git
 cd DERD-Net
 ```
 
-#### 2. Set Up the Environemnt
+### 2. Set Up the Environemnt
 
 We provide an [environment.yml](https://github.com/tub-rip/DERD-Net_dev/blob/main/environment.yml) file to ensure compatibility with all dependencies. It can be installed using [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html).
 
 ```
 conda env create -f environment.yml
-conda activate your-env-name
+conda activate derdnet_env
 ```
+
+If you do not have conda installed, follow the official [miniconda installation guide](https://www.anaconda.com/docs/getting-started/miniconda/main).
+
+### 3. Launch Jupyter Notebook
+
+After activating the environment:
+```
+jupyter notebook
+```
+
+This will open the Jupyter interface in your browser. You can then open and run the notebooks listed above.
+If you are new ew to Jupyter, see this quick [beginner’s guide](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) to help you get started.
 
 ## Code
 
