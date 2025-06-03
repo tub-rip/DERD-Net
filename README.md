@@ -112,19 +112,12 @@ jupyter notebook
 This will open the Jupyter interface in your browser. You can then open and run the notebooks listed above.
 If you are new ew to Jupyter, see this quick [beginner’s guide](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) to help you get started.
 
-## Code
-
-The code for our approach is provided in Jupyter Notebooks, each of which contain a detailed usage instruction. They are contained within the [notebooks](https://github.com/tub-rip/DERD-Net_dev/tree/main/notebooks) folder, providing the following functionalities:
-
-- [Training and testing](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Training_and_Testing.ipynb)
-- [Inference and runtime analysis](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Inference.ipynb)
-- [Visualization of depth maps](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Visualization.ipynb)
-
-Our [environment.yml](https://github.com/tub-rip/DERD-Net_dev/blob/main/environment.yml) can be used for installing necessary dependencies using [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html).
-
 ## Models
 
-Our trained models are provided in the folder [models](https://github.com/tub-rip/DERD-Net_dev/tree/main/models).
+Pretrained models are available in the [`models`](https://github.com/tub-rip/DERD-Net_dev/tree/main/models) folder. These include weights for both the single-pixel and multi-pixel versions of DERD-Net. They can can be used directly within the provided Jupyter notebooks:
+
+- Simply place the desired .pth file from the [`models`](https://github.com/tub-rip/DERD-Net_dev/tree/main/models) directory.
+- The model will be automatically loaded as specified in the corresponding notebook.
 
 ## Related Works
 
