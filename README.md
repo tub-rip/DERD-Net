@@ -108,7 +108,7 @@ The following command opens the Jupyter interface in your browser. You can then 
 jupyter notebook
 ```
 
-If you are new ew to Jupyter, see this quick [beginner’s guide](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) to help you get started.
+If you are new to Jupyter, see this quick [beginner’s guide](https://jupyter-notebook.readthedocs.io/en/stable/notebook.html) to help you get started.
 
 ## Models
 
@@ -116,6 +116,11 @@ Pretrained models are available in the [`models`](https://github.com/tub-rip/DER
 
 - Simply place the desired `.pth` file from the [`models`](https://github.com/tub-rip/DERD-Net_dev/tree/main/models) directory.
 - The model will be automatically loaded as specified in the corresponding notebook.
+
+## Generating Input DSIs
+Disparity Space Images (DSIs) can be obtained by running [dvs_mcemvs](https://github.com/tub-rip/dvs_mcemvs) with the parameter `save_dsi=true` in the config file, like [in this example](https://github.com/tub-rip/dvs_mcemvs/tree/main/mapper_emvs_stereo/cfg/upenn_mvsec/mvsec_flying1_full/alg1_with_dsi). Please note that saving DSIs occupy significant disk space.
+
+For a quick start, sample DSIs from the [MVSEC](https://daniilidis-group.github.io/mvsec/) `flying1` sequence are provided [here](https://tubcloud.tu-berlin.de/s/PLPtppqodqBiQYp).
 
 ## Related Works
 
