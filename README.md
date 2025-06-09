@@ -122,6 +122,9 @@ Disparity Space Images (DSIs) can be obtained by running [dvs_mcemvs](https://gi
 
 For a quick start, sample DSIs from the [MVSEC](https://daniilidis-group.github.io/mvsec/) `flying1` sequence are provided [here](https://tubcloud.tu-berlin.de/s/PLPtppqodqBiQYp).
 
+## License
+This work is released under [MIT License](LICENSE).
+
 ## Related Works
 
 - [MC-EMVS: Multi-Event-Camera Depth Estimation and Outlier Rejection by Refocused Events Fusion](https://github.com/tub-rip/dvs_mcemvs)
