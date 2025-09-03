@@ -78,11 +78,11 @@ Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our 
 
 ## Installation & Usage
 
-The code for our approach is provided in Jupyter Notebooks, each of which contains detailed usage instructions. They are located in the [`notebooks`](https://github.com/tub-rip/DERD-Net_dev/tree/main/notebooks) folder and cover the following functionalities:
+The code for our approach is provided in Jupyter Notebooks, each of which contains detailed usage instructions. They are located in the [`notebooks`](https://github.com/tub-rip/DERD-Net/tree/main/notebooks) folder and cover the following functionalities:
 
-- [Training and testing](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Training_and_Testing.ipynb)
-- [Inference and runtime analysis](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Inference.ipynb)
-- [Visualization of depth maps](https://github.com/tub-rip/DERD-Net_dev/blob/main/notebooks/Visualization.ipynb)
+- [Training and testing](https://github.com/tub-rip/DERD-Net/blob/main/notebooks/Training_and_Testing.ipynb)
+- [Inference and runtime analysis](https://github.com/tub-rip/DERD-Net/blob/main/notebooks/Inference.ipynb)
+- [Visualization of depth maps](https://github.com/tub-rip/DERD-Net/blob/main/notebooks/Visualization.ipynb)
 
 To use these notebooks, follow the installation guide below:
 
@@ -94,7 +94,7 @@ cd DERD-Net
 
 #### 2. Set Up the Environemnt
 
-We provide an [`environment.yml`](https://github.com/tub-rip/DERD-Net_dev/blob/main/environment.yml) file to ensure compatibility with all dependencies. It can be installed using [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html).
+We provide an [`environment.yml`](https://github.com/tub-rip/DERD-Net/blob/main/environment.yml) file to ensure compatibility with all dependencies. It can be installed using [Conda](https://docs.conda.io/projects/conda/en/stable/user-guide/getting-started.html).
 
 ```
 conda env create -f environment.yml
@@ -112,9 +112,9 @@ If you are new to Jupyter, see this quick [beginner’s guide](https://jupyter-n
 
 ## Models
 
-Pretrained models are available in the [`models`](https://github.com/tub-rip/DERD-Net_dev/tree/main/models) folder. These include weights for both the single-pixel and multi-pixel versions of DERD-Net. They can can be used directly within the provided Jupyter notebooks:
+Pretrained models are available in the [`models`](https://github.com/tub-rip/DERD-Net/tree/main/models) folder. These include weights for both the single-pixel and multi-pixel versions of DERD-Net. They can can be used directly within the provided Jupyter notebooks:
 
-- Simply place the desired `.pth` file from the [`models`](https://github.com/tub-rip/DERD-Net_dev/tree/main/models) directory.
+- Simply place the desired `.pth` file from the [`models`](https://github.com/tub-rip/DERD-Net/tree/main/models) directory.
 - The model will be automatically loaded as specified in the corresponding notebook.
 
 ## Generating Input DSIs
