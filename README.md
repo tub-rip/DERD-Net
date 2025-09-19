@@ -1,6 +1,6 @@
 # DERD-Net: Learning Depth from Event-based Ray Densities (NeurIPS 2025 Spotlight)
 
-Official repository for [DERD-Net: Learning Depth from Event-based Ray Densities](https://arxiv.org/pdf/2504.15863), by [Diego de Oliveira Hitzges](https://www.linkedin.com/in/diego-de-oliveira-hitzges-410943276/)\*, [Suman Ghosh](https://www.linkedin.com/in/suman-ghosh-a8762576/)\*, and [Guillermo Gallego](https://sites.google.com/view/guillermogallego).
+Official repository for [DERD-Net: Learning Depth from Event-based Ray Densities](https://arxiv.org/pdf/2504.15863), by [Diego de Oliveira Hitzges](https://www.linkedin.com/in/diego-de-oliveira-hitzges-410943276/)\*, [Suman Ghosh](https://www.linkedin.com/in/suman-ghosh-a8762576/)\*, and [Guillermo Gallego](http://www.guillermogallego.es).
 
 \*Equal contribution.
 
@@ -9,11 +9,11 @@ Official repository for [DERD-Net: Learning Depth from Event-based Ray Densities
 If you use this work in your research, please cite it as follows:
 
 ```bibtex
-@article{hitzges2025derd,
-  title={DERD-Net: Learning Depth from Event-based Ray Densities},
-  author={Hitzges, Diego de Oliveira and Ghosh, Suman and Gallego, Guillermo},
-  journal={Advances in Neural Information Processing Systems},
-  year={2025}
+@InProceedings{Hitzges25neurips,
+  title     = {{DERD-Net}: Learning Depth from Event-based Ray Densities},
+  author    = {Hitzges, Diego de Oliveira and Ghosh, Suman and Gallego, Guillermo},
+  booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
+  year      = {2025}
 }
 ```
 
@@ -44,7 +44,7 @@ If you use this work in your research, please cite it as follows:
 
 - Pixel-wise depth estimation for each Sub-DSI:
   - Single value at selected pixel for single-pixel network version
-  - 3x3 grid at selected and neighboring pixels for multi-pixel network version
+  - 3x3 grid at selected and 8-neighboring pixels for multi-pixel network version
 
 ## Results
 <p align="center">
@@ -56,7 +56,7 @@ If you use this work in your research, please cite it as follows:
 </div>
 <br>
 
-Using 3-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our approach drastically outperforms comparable methods:
+Using three-fold cross-validaton on the MVSEC <em>indoor_flying</em> sequences, our approach drastically outperforms comparable methods:
 
 - Using purely monocular data, our method achieves comparable results to existing _stereo_ methods.
 - When applied to stereo data, it strongly outperforms all state-of-the-art (SOTA) approaches, reducing the mean absolute error by at least 42%.
@@ -127,6 +127,13 @@ This work is released under [MIT License](LICENSE).
 
 ## Related Works
 
-- [MC-EMVS: Multi-Event-Camera Depth Estimation and Outlier Rejection by Refocused Events Fusion](https://github.com/tub-rip/dvs_mcemvs)
-- [Event-based Stereo Depth Estimation: A Survey](https://arxiv.org/pdf/2409.17680)
-- [ES-PTAM: Event-based Stereo Parallel Tracking and Mapping](https://github.com/tub-rip/ES-PTAM)
+* **[Event-based Stereo Depth Estimation: A Survey (TPAMI 2025)](https://arxiv.org/pdf/2409.17680)**
+* **[MC-EMVS: Multi-Event-Camera Depth Estimation and Outlier Rejection by Refocused Events Fusion (AISY 2022)](https://github.com/tub-rip/dvs_mcemvs)**
+* [ES-PTAM: Event-based Stereo Parallel Tracking and Mapping (ECCVW 2024)](https://github.com/tub-rip/ES-PTAM)
+   
+## Additional Resources on Event-based Vision
+
+* [Research page (TU Berlin, RIP lab)](https://sites.google.com/view/guillermogallego/research/event-based-vision)
+* [Course at TU Berlin](https://sites.google.com/view/guillermogallego/teaching/event-based-robot-vision)
+* [Survey paper](http://rpg.ifi.uzh.ch/docs/EventVisionSurvey.pdf)
+* [List of Resources](https://github.com/uzh-rpg/event-based_vision_resources)
