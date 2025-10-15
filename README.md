@@ -1,6 +1,6 @@
 # DERD-Net: Learning Depth from Event-based Ray Densities (NeurIPS 2025 Spotlight)
 
-Official repository for [DERD-Net: Learning Depth from Event-based Ray Densities](https://arxiv.org/pdf/2504.15863), by [Diego de Oliveira Hitzges](https://www.linkedin.com/in/diego-de-oliveira-hitzges-410943276/)\*, [Suman Ghosh](https://www.linkedin.com/in/suman-ghosh-a8762576/)\*, and [Guillermo Gallego](http://www.guillermogallego.es).
+Official repository for [DERD-Net: Learning Depth from Event-based Ray Densities](https://arxiv.org/pdf/2504.15863), by [Diego Hitzges](https://www.linkedin.com/in/diego-de-oliveira-hitzges-410943276/)\*, [Suman Ghosh](https://www.linkedin.com/in/suman-ghosh-a8762576/)\*, and [Guillermo Gallego](http://www.guillermogallego.es).
 
 \*Equal contribution.
 
@@ -11,7 +11,7 @@ If you use this work in your research, please cite it as follows:
 ```bibtex
 @InProceedings{Hitzges25neurips,
   title     = {{DERD-Net}: Learning Depth from Event-based Ray Densities},
-  author    = {Hitzges, Diego de Oliveira and Ghosh, Suman and Gallego, Guillermo},
+  author    = {Hitzges, Diego and Ghosh, Suman and Gallego, Guillermo},
   booktitle = {Advances in Neural Information Processing Systems (NeurIPS)},
   year      = {2025}
 }
