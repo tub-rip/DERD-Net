@@ -4,8 +4,14 @@ Official repository for [DERD-Net: Learning Depth from Event-based Ray Densities
 
 \*Equal contribution.
 
-<!--## [Paper](https://arxiv.org/pdf/2504.15863) | [Video]() --->
+<h2 align="left">
 
+[PDF](https://arxiv.org/pdf/2504.15863) | [Video](https://youtu.be/TOojPEb5wtQ) 
+</h2>
+
+[![DERD-Net: Learning Depth from Event-based Ray Densities](assets/2025_NeurIPS_DERD-Net_play.png)](https://youtu.be/TOojPEb5wtQ)
+
+## Citation
 If you use this work in your research, please cite it as follows:
 
 ```bibtex
